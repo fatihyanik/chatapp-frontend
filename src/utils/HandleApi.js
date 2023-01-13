@@ -1,7 +1,6 @@
 import axios from 'axios'
 
-const baseUrl = process.env.BASE_URL
-//const baseUrl = "http://localhost:5000"
+const baseUrl = "https://chatapp-backend-mlcu.onrender.com/"
 
 const getAllToDo = (setToDo) => {
     axios
