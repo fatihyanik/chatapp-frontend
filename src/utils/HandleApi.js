@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const baseUrl = "https://chatapp-backend-kcpa.onrender.com"
+const baseUrl = process.env.BASE_URL
 
 const getAllToDo = (setToDo) => {
     axios
